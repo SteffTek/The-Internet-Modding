@@ -1,0 +1,24 @@
+{
+    "name": "custom",
+    "isCustom": true,
+    "displayName": "Custom",
+    "title": "A custom Role",
+    "description": "You are a custom role.",
+    "sound": "voice_role_user",
+    "team": "user",
+    "canKill": false,
+    "abilities": [],
+    "win": {
+        "with": "user",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": false
+    }
+}
