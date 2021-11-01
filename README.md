@@ -101,7 +101,7 @@ You can have more abilities per role, if you comma separate them.
 `negate` negates the ability. So you can "unhack" users, or "unscam" other users. This does not work for the `inspect`-Type.
 
 ## Win Conditions
-The win conditions are stored inside the `win` attribute.
+The win conditions are stored inside the `win` attribute. This field will be ignored on non-custom roles.
 ```json
 "win": {
     "with": "bot",
@@ -111,7 +111,6 @@ The win conditions are stored inside the `win` attribute.
     "winMessage": ""
 }
 ```
-
 First of all, everything below `with` is ignored if its not set to `alone`. [Reference](#enums)
 
 However, if your role win with is set to `alone`, the other fields become available.
