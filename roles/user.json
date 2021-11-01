@@ -1,0 +1,24 @@
+{
+    "name": "user",
+    "isCustom": false,
+    "displayName": "roles.user.name",
+    "title": "page.roles.user.title",
+    "description": "page.roles.user.desc",
+    "sound": "voice_role_user",
+    "team": "user",
+    "canKill": false,
+    "abilities": [],
+    "win": {
+        "with": "user",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": false
+    }
+}

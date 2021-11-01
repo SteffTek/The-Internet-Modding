@@ -1,0 +1,30 @@
+{
+    "name": "scammer",
+    "isCustom": false,
+    "displayName": "roles.scammer.name",
+    "title": "page.roles.scammer.title",
+    "description": "page.roles.scammer.desc",
+    "sound": "voice_role_scammer",
+    "team": "bot",
+    "canKill": false,
+    "abilities": [
+        {
+            "type": "scam",
+            "amount": 1,
+            "negate": false
+        }
+    ],
+    "win": {
+        "with": "bot",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": true,
+        "bots": true,
+        "neutral": false,
+        "inspected": false
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "davis",
+    "isCustom": false,
+    "displayName": "roles.davis.name",
+    "title": "page.roles.davis.title",
+    "description": "page.roles.davis.desc",
+    "sound": "voice_role_davis",
+    "team": "user",
+    "canKill": false,
+    "abilities": [
+        {
+            "type": "skip",
+            "amount": 1,
+            "negate": false
+        }
+    ],
+    "win": {
+        "with": "user",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": false
+    }
+}

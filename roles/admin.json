@@ -1,0 +1,30 @@
+{
+    "name": "admin",
+    "isCustom": false,
+    "displayName": "roles.admin.name",
+    "title": "page.roles.admin.title",
+    "description": "page.roles.admin.desc",
+    "sound": "voice_role_admin",
+    "team": "user",
+    "canKill": false,
+    "abilities": [
+        {
+            "type": "inspect",
+            "amount": 1,
+            "negate": false
+        }
+    ],
+    "win": {
+        "with": "user",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "troll",
+    "isCustom": false,
+    "displayName": "roles.troll.name",
+    "title": "page.roles.troll.title",
+    "description": "page.roles.troll.desc",
+    "sound": "voice_role_troll",
+    "team": "alone",
+    "canKill": false,
+    "abilities": [],
+    "win": {
+        "with": "alone",
+        "onUserKick": true,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": false
+    }
+}

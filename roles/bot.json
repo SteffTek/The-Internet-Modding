@@ -1,0 +1,30 @@
+{
+    "name": "bot",
+    "isCustom": false,
+    "displayName": "roles.bots.name",
+    "title": "page.roles.bot.title",
+    "description": "page.roles.bot.desc",
+    "sound": "voice_role_bot",
+    "team": "bot",
+    "canKill": true,
+    "abilities": [
+        {
+            "type": "hack",
+            "amount": 1,
+            "negate": false
+        }
+    ],
+    "win": {
+        "with": "bot",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": true,
+        "neutral": false,
+        "inspected": false
+    }
+}
