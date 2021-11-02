@@ -171,7 +171,7 @@ Ability Types are:
     + **Negated**: Give back all abilities once
 + `hack` - Hacks user during minigames
     + **Negated**: Un-Hack user
-+ `inspect`
++ `inspect` - Look up users identity.
     + **Negated**: Not implemented.
 
 
