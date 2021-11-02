@@ -1,0 +1,22 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "Validate Roles",
+  "main": "test.js",
+  "scripts": {
+    "test": "node ./validation/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteffTek/The-Internet-Modding.git"
+  },
+  "author": "SteffTek",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SteffTek/The-Internet-Modding/issues"
+  },
+  "homepage": "https://github.com/SteffTek/The-Internet-Modding#readme",
+  "dependencies": {
+    "node-data-validator": "^1.1.1"
+  }
+}

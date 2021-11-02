@@ -1,3 +1,5 @@
+[![Role Validation](https://github.com/SteffTek/The-Internet-Modding/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/SteffTek/The-Internet-Modding/actions/workflows/validation.yml)
+
 # Modding TheInternet
 ### A Guide on how to improve bad game design.
 ⚠️ Caution: If you don't know what "TheInternet" is - look [**here**](https://internet.stefftek.de).
