@@ -117,7 +117,7 @@ You can have more abilities per role, if you comma separate them.
 
 `amount` declares how often a user can use this ability.
 
-`negate` negates the ability. So you can "unhack" users, or "unscam" other users. This does not work for the `inspect`-Type.
+`negate` negates the ability. So you can "unhack" users, or "unscam" other users. This does not work for the `inspect`-Type. Look up the [Reference](#enums) for more.
 
 ## Win Conditions
 The win conditions are stored inside the `win` attribute. This field will be ignored on non-custom roles.
@@ -163,10 +163,14 @@ Team Types are:
 + `alone`
 
 Ability Types are:
-+ `skip`
-+ `scam`
-+ `hack`
++ `skip` - Skip bot votes
+    + **Negated**: Force skipped bot votes
++ `scam` - Steal all abilites from users
+    + **Negated**: Give back all abilities once
++ `hack` - Hacks user during minigames
+    + **Negated**: Un-Hack user
 + `inspect`
+    + **Negated**: Not implemented.
 
 
 ## Text Limits
