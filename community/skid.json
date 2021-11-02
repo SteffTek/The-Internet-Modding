@@ -11,7 +11,7 @@
         {
             "type": "hack",
             "amount": 1,
-            "negate": true
+            "negate": false
         },
         {
             "type": "scam",
