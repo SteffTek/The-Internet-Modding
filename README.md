@@ -82,6 +82,8 @@ The `name` is an internal reference. No two roles can have the same `name`. It's
 
 The `displayName`, `title` and `description` of your new role are free to use text fields. The display name is used to announce your role to the player. The title and description is used to give valuable information to the player above the chatbox. However, there are [text size limits](#text-limits).
 
+![grafik](https://user-images.githubusercontent.com/5563452/139813439-5f81db88-da29-4382-8d7b-2e2d478f2620.png)
+
 `sound` is the announcer sound file that will be played. No, this is **not** a hyperlink. For reference, look up existing role files.
 
 The `team` header field is describing the most important. This defines which team the role plays with. This should be noted in your description. [Reference](#enums)
