@@ -183,4 +183,5 @@ A few limits on free text fields while modding.
 + `description`: 250 Chars
 + `sound`: 30 Chars
 + `winMessage`: 30 Chars
+
 Futhermore, no text field is allowed to have leading or trailing spaces.
