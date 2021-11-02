@@ -61,13 +61,17 @@ class Role {
         }
 
         // Validate Strings
-        if (json.name.length > 30 || json.displayName.length > 30 || json.title.length > 50 || json.description.length > 250 || json.sound.length > 30) {
+        if(json.name.length > 30 || json.displayName.length > 30 || json.title.length > 50 || json.description.length > 250 || json.sound.length > 30 || json.win.winMessage.length > 30) {
             this.valid = false;
             return;
         }
 
-        // Validate Win Message
-        if (json.win.winMessage.length > 30) {
+        // Validate Name and String Trims
+        if(json.name.toLowerCase().trim() !== json.name) {
+            this.valid = false;
+            return;
+        }
+        if(json.displayName.trim() !== json.displayName || json.title.trim() !== json.title || json.description.trim() !== json.description || json.sound.trim() !== json.sound || json.win.winMessage.trim() !== json.win.winMessage) {
             this.valid = false;
             return;
         }

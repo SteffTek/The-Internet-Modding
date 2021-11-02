@@ -177,9 +177,10 @@ Ability Types are:
 
 ## Text Limits
 A few limits on free text fields while modding.
-+ `name`: 30 Chars
++ `name`: 30 Chars, only lower case
 + `displayName`: 30 Chars
 + `title`: 50 Chars
 + `description`: 250 Chars
 + `sound`: 30 Chars
 + `winMessage`: 30 Chars
+Futhermore, no text field is allowed to have leading or trailing spaces.
