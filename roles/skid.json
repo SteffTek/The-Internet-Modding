@@ -24,7 +24,7 @@
         "onUserKick": false,
         "onBotKick": false,
         "onLastSurvive": false,
-        "winMessage": "You have won with the bots!"
+        "winMessage": ""
     },
     "visibility": {
         "evil": false,
