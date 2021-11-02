@@ -1,0 +1,30 @@
+{
+    "name": "robert",
+    "isCustom": true,
+    "displayName": "Robert T. Online",
+    "title": "Robert T. Online",
+    "description": "Robert T. Online is the evil antagonist to Marcell Davis. He works for the bots and tries to deny any request from Marcell to improve customer service.",
+    "sound": "",
+    "team": "bot",
+    "canKill": false,
+    "abilities": [
+        {
+            "type": "skip",
+            "amount": 1,
+            "negate": true
+        }
+    ],
+    "win": {
+        "with": "bot",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": true,
+        "bots": true,
+        "neutral": false,
+        "inspected": false
+    }
+}
