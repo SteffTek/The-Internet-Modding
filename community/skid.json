@@ -1,0 +1,35 @@
+{
+    "name": "skid",
+    "isCustom": true,
+    "displayName": "a Script Kiddie",
+    "title": "You are a Script Kiddie.",
+    "description": "You have managed to steal some code which gives you the ability to hack and scam users. Too bad that you can't see any of your fellow evil partners...",
+    "sound": "",
+    "team": "bot",
+    "canKill": false,
+    "abilities": [
+        {
+            "type": "hack",
+            "amount": 1,
+            "negate": false
+        },
+        {
+            "type": "scam",
+            "amount": 1,
+            "negate": false
+        }
+    ],
+    "win": {
+        "with": "bot",
+        "onUserKick": false,
+        "onBotKick": false,
+        "onLastSurvive": false,
+        "winMessage": ""
+    },
+    "visibility": {
+        "evil": false,
+        "bots": false,
+        "neutral": false,
+        "inspected": false
+    }
+}
