@@ -6,4 +6,4 @@ Submit your own roles to this folder!
 3. Your submission will be added to a fine selection of roles to choose from.
 
 ## Rules
-If your submission contains any harmful, sexual or copyrighted contend of any kind, it will be deleted.
+If your submission contains any harmful, sexual or copyrighted content of any kind, it will be deleted.
