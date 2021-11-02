@@ -7,6 +7,23 @@ TheInternet is modded by creating, altering or deleting roles that directly affe
 
 Mods are provided as JSON files and uploaded for each lobby on TheInternet.
 
+## Basic Game Rules
++ A game lasts until all `bots` are dead, all `users` are killed, etc.
++ A custom role with `onLastSurvive` only wins if no other users or bots are alive, otherwise the users will win.
++ As bot counts every role that `canKill` users and have `bot` set as their team.
++ Roles are given in a certain order in game logic.
+    + Bots
+    + Admin
+    + Davis
+    + Troll
+    + Scammer
+    + Any Custom Roles
+    + Users
++ This implies that if you have 5 players, from which 4 are selected as bots, the last user will be selected as admin.
++ A scammer, a bad guy, doesn't count as bot.
++ I like watermelon.
++ Removed Herobrine.
+
 ## Role mod file
 A role mod file looks like this.
 ```json
