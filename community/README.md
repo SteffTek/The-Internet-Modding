@@ -7,3 +7,6 @@ Submit your own roles to this folder!
 
 ## Rules
 If your submission contains any harmful, sexual or copyrighted content of any kind, it will be deleted.
+
+## Content
+Don't use special chars in your role names (allowed in `displayName`, `title` and `description`). It sure works, but it doesn't look nice.
