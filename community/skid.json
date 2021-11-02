@@ -20,9 +20,9 @@
         }
     ],
     "win": {
-        "with": "bot",
+        "with": 42069,
         "onUserKick": false,
-        "onBotKick": false,
+        "onBotbdgnfbfsKick": false,
         "onLastSurvive": false,
         "winMessage": ""
     },
